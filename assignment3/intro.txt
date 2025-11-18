@@ -1,0 +1,28 @@
+# Linux Shell Assignment
+
+## Project Overview  
+This repository contains a set of shell-scripts written in Bash to perform common system-administration tasks. The goal is to build simple, reusable tools for backup, monitoring, and automated downloads. Each script is standalone and can be executed directly from the command line.
+
+## Getting Started  
+### Prerequisites  
+- A Unix-like system (Linux, macOS, WSL) with Bash installed.  
+- Basic permissions to run/execute shell scripts (`chmod +x`).  
+- If needed, sudo privileges (depending on what the script does).
+
+
+
+
+
+Below is a brief overview of each script in this repository:
+
+backup.sh
+
+Performs a backup of specified files or directories. Configuration may include the source path(s), target backup location, and optional compression or timestamping. Useful for routine backups of data.
+
+monitor.sh
+
+Monitors system resource usage (e.g., CPU, memory, disk) or other parameters and logs / alerts if thresholds are exceeded. Can be used to keep an eye on system health over time.
+
+download.sh
+
+Automates downloading of files from a given URL (or list of URLs). May include features like retry, logging, and organizing downloaded files into folders.
